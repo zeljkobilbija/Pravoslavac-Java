@@ -49,6 +49,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/ik_1" />
+        app:srcCompat="@drawable/ik_355" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
