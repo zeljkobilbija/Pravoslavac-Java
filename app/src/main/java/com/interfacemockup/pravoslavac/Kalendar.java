@@ -7,7 +7,7 @@ public class Kalendar {
     Calendar kla = Calendar.getInstance();
     
     
-    boolean redniDAnUGodini) {
+    boolean redniDAnUGodini() {
         boolean lenient = kla.isLenient();
         Date danas = new Date();
 
