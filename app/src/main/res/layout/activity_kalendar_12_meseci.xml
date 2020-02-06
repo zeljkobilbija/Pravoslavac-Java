@@ -15,5 +15,12 @@
         android:dividerHeight="1dp"/>
     <!--android:listSelector="@color/orange_post" -->
 
+    <TextView
+        android:id="@+id/custom_cell"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/text_svetlo"
+        android:textSize="28dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

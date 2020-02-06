@@ -2,6 +2,7 @@ package com.interfacemockup.pravoslavac;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -21,17 +22,21 @@ public class Kalendar_12_meseci extends AppCompatActivity {
         setContentView(R.layout.activity_kalendar_12_meseci);
 
         listView = (ListView)findViewById(R.id.id_dvanaest_meseci_list_view) ;
-        textView = (TextView)findViewById(R.id.id_meseci_cell);
+        textView = (TextView)findViewById(R.id.custom_cell);
         listItem = getResources().getStringArray(R.array.nazivi_meseca);
 
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, android.R.id.text1, listItem);
         listView.setAdapter(adapter);
 
+
+
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String value = adapter.getItem(position);
-                Toast.makeText(getApplicationContext(),value,Toast.LENGTH_SHORT).show();
+                //String value = adapter.getItem(position);
+               // Toast.makeText(getApplicationContext(),value,Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(getApplicationContext(), TridesetDana.class);
+                startActivity(i);
             }
         });
 
