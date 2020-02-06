@@ -5,4 +5,19 @@
     <string name="datum_text_view">22. decembar 2020. god</string>
     <string name="ikona_svetitelja">ik_1.png</string>
     <string name="ime_svetca">Ime Svetitelja </string>
+    <string name="back_btn_string">Nazad</string>
+    <string-array name="nazivi_meseca">
+        <item>Јануар</item>
+        <item>Фебруар</item>
+        <item>Март</item>
+        <item>Април</item>
+        <item>Мај</item>
+        <item>Јун</item>
+        <item>Јул</item>
+        <item>Август</item>
+        <item>Септембар</item>
+        <item>Октобар</item>
+        <item>Новембар</item>
+        <item>Децембар</item>
+    </string-array>
 </resources>

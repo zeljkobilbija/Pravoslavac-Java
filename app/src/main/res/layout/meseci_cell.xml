@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_meseci_cell"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="Januar"
+    android:textStyle="bold"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+    android:padding="2dp"
+    android:textColor="@color/text_svetlo" >
+
+</TextView>

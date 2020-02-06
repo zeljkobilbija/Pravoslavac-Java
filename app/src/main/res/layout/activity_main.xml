@@ -80,40 +80,49 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageButton
-            android:id="@+id/kalendarBtn"
+            android:id="@+id/id_kalend_Btn"
+            android:onClick="addListenerOnOpenKalBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:tint="@color/text_svetlo"
             app:srcCompat="@drawable/fb_1" />
 
         <ImageButton
-            android:id="@+id/molitveBtn"
+            android:id="@+id/id_molitve_Btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:tint="@color/text_svetlo"
             app:srcCompat="@drawable/fb_2" />
 
         <ImageButton
-            android:id="@+id/shareBtn"
+            android:id="@+id/IDshareBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:background="@android:color/transparent"
+            android:tint="@color/text_svetlo"
             app:srcCompat="@drawable/fb_convert" />
 
         <ImageButton
-            android:id="@+id/katihizisBtn"
+            android:id="@+id/IDkatihizisBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:tint="@color/text_svetlo"
             app:srcCompat="@drawable/fb_3" />
 
         <ImageButton
-            android:id="@+id/infoBtn"
+            android:id="@+id/IDinfoBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:tint="@color/text_svetlo"
             app:srcCompat="@drawable/fb_4" />
     </LinearLayout>
 
