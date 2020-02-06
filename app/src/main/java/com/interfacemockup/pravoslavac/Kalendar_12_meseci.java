@@ -24,7 +24,7 @@ public class Kalendar_12_meseci extends AppCompatActivity {
         textView = (TextView)findViewById(R.id.id_meseci_cell);
         listItem = getResources().getStringArray(R.array.nazivi_meseca);
 
-        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_selectable_list_item, android.R.id.text1, listItem);
+        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, android.R.id.text1, listItem);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
