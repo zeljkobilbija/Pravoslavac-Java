@@ -9,9 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TridesetDana"></activity>
-        <activity android:name=".Kalendar_12_meseci" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MolitveDetail"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".Molitve"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Katihizis"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TridesetDana"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kalendar_12_meseci"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
